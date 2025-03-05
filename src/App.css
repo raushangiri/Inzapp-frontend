@@ -1,0 +1,2639 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #81A1D2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.gravityteam-co,
+.gravityteam-co * {
+  box-sizing: border-box;
+}
+.gravityteam-co {
+  background: #81a1d2;
+  height: 6357px;
+  position: relative;
+}
+.main {
+  width: 1424px;
+  height: 5995px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.section {
+  height: 810px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+.div {
+  height: 307.8px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: hidden;
+}
+.div-before {
+  background: linear-gradient(
+    180deg,
+    rgba(125, 161, 215, 1) 99.98999834060669%,
+    rgba(20, 22, 25, 0) 100%
+  );
+  width: 1440px;
+  height: 92.33px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.div2 {
+  width: 584px;
+  height: 392px;
+  position: absolute;
+  left: 428px;
+  top: 159px;
+}
+.h-1 {
+  width: 555.2px;
+  height: 172px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+}
+.balancing {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 76px;
+  line-height: 86px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: -43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.crypto-markets {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 74px;
+  line-height: 86px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.our-fully-automated-proprietary-quantitative-trading-software-provides-24-7-liquidity-to-170-crypto-assets-across-25-centralized-spot-and-derivative-crypto-exchanges {
+  color: #e5e5e5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 203px;
+  width: 527.89px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  border-radius: 2px;
+  padding: 17px 28.5px 19px 27px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - -138px);
+  overflow: hidden;
+}
+.button-before {
+  background: linear-gradient(
+    135deg,
+    rgba(74, 63, 204, 1) 0%,
+    rgba(97, 141, 222, 1) 30.399993062019348%,
+    rgba(97, 148, 224, 1) 34.39999520778656%,
+    rgba(95, 164, 230, 1) 44.760000705718994%,
+    rgba(210, 171, 103, 1) 100%
+  );
+  border-radius: 2px;
+  flex-shrink: 0;
+  width: 191.5px;
+  height: 58px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.get-in-touch {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div3 {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 192px;
+  top: 938px;
+}
+.div4 {
+  flex-shrink: 0;
+  width: 1056px;
+  height: 252px;
+  position: relative;
+}
+.about-gravity-team {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 56px;
+  line-height: 78px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.at-gravity-team-we-are-on-the-mission-to-balance-the-supply-and-demand-across-crypto-markets-worldwide-we-are-a-crypto-native-market-maker-founded-by-traders-developers-and-innovators-who-are-strong-believers-and-supporters-of-the-future-of-decentralization-and-digital-assets {
+  color: #e5e5e5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 101px;
+  width: 612.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div5 {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.div6 {
+  flex-shrink: 0;
+  width: 1056px;
+  height: 356px;
+  position: relative;
+}
+.div7 {
+  height: 180px;
+  position: absolute;
+  right: 792px;
+  left: 0px;
+  top: 0px;
+}
+._100-billion {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 32px;
+  line-height: 57.8px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - 57.91px);
+  width: 202.31px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cumulative-trading-volume-to-date {
+  color: #e5e5e5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - 1.11px);
+  width: 161.59px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div8 {
+  height: 180px;
+  position: absolute;
+  right: 528px;
+  left: 264px;
+  top: 0px;
+}
+.div-before2 {
+  background: linear-gradient(
+    135deg,
+    rgba(102, 93, 205, 1) 0%,
+    rgba(95, 164, 230, 1) 44.760000705718994%,
+    rgba(210, 171, 103, 1) 100%
+  );
+  width: 264px;
+  height: 180px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._0-8 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 40px;
+  line-height: 68px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - 61px);
+  width: 99.17px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.of-the-global-crypto-spot-trading-volume {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - -4px);
+  width: 214.67px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div9 {
+  height: 180px;
+  position: absolute;
+  right: 264px;
+  left: 528px;
+  top: 0px;
+}
+._30 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 39px;
+  line-height: 68px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - 61px);
+  width: 77.04px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gravity-teammates-growing {
+  color: #e5e5e5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - -4px);
+  width: 165.84px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div10 {
+  height: 180px;
+  position: absolute;
+  right: 0px;
+  left: 792px;
+  top: 0px;
+}
+._25 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 38px;
+  line-height: 68px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - 61px);
+  width: 72.97px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leading-global-and-local-crypto-exchanges {
+  color: #e5e5e5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - -4px);
+  width: 209.2px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div11 {
+  height: 176px;
+  position: absolute;
+  right: 792px;
+  left: 0px;
+  top: 180px;
+}
+._2017 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 37px;
+  line-height: 68px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - 46px);
+  width: 86.97px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.start-crypto-natives {
+  color: #e5e5e5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - -19px);
+  width: 173.01px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div12 {
+  height: 176px;
+  position: absolute;
+  right: 528px;
+  left: 264px;
+  top: 180px;
+}
+._1-200 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 39px;
+  line-height: 68px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - 46px);
+  width: 130.65px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.crypto-asset-pairs {
+  color: #e5e5e5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - -19px);
+  width: 155.87px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div13 {
+  height: 176px;
+  position: absolute;
+  right: 264px;
+  left: 528px;
+  top: 180px;
+}
+._24-7 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 38px;
+  line-height: 68px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - 46px);
+  width: 85.29px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.liquidity {
+  color: #e5e5e5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - -19px);
+  width: 67.17px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div14 {
+  height: 176px;
+  position: absolute;
+  right: 0px;
+  left: 792px;
+  top: 180px;
+}
+._5-billion {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 38px;
+  line-height: 68px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - 46px);
+  width: 168.53px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trades-done-to-date {
+  color: #e5e5e5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - -19px);
+  width: 171.07px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div15 {
+  background: linear-gradient(
+    135deg,
+    rgba(102, 93, 205, 1) 0%,
+    rgba(95, 164, 230, 1) 44.760000705718994%,
+    rgba(210, 171, 103, 1) 100%
+  );
+  flex-shrink: 0;
+  width: 2px;
+  height: 352px;
+  position: absolute;
+  left: 263px;
+  top: 2px;
+}
+.div16 {
+  background: linear-gradient(
+    135deg,
+    rgba(102, 93, 205, 1) 0%,
+    rgba(95, 164, 230, 1) 44.760000705718994%,
+    rgba(210, 171, 103, 1) 100%
+  );
+  flex-shrink: 0;
+  width: 2px;
+  height: 352px;
+  position: absolute;
+  left: 527px;
+  top: 2px;
+}
+.div17 {
+  background: linear-gradient(
+    135deg,
+    rgba(102, 93, 205, 1) 0%,
+    rgba(95, 164, 230, 1) 44.760000705718994%,
+    rgba(210, 171, 103, 1) 100%
+  );
+  flex-shrink: 0;
+  width: 2px;
+  height: 352px;
+  position: absolute;
+  left: 791px;
+  top: 2px;
+}
+.div18 {
+  background: linear-gradient(
+    135deg,
+    rgba(102, 93, 205, 1) 0%,
+    rgba(95, 164, 230, 1) 44.760000705718994%,
+    rgba(210, 171, 103, 1) 100%
+  );
+  flex-shrink: 0;
+  width: 1052px;
+  height: 2px;
+  position: absolute;
+  left: 2px;
+  top: 178px;
+}
+.section2 {
+  height: 680px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 1738px;
+}
+.background-blob-service-1-png {
+  height: 2010.19px;
+  position: absolute;
+  right: -1257.4px;
+  left: 645.4463500976562px;
+  top: -727.32px;
+  transform-origin: 0 0;
+  transform: rotate(60.072deg) scale(0.998, 1.002);
+  object-fit: cover;
+}
+.div19 {
+  display: flex;
+  flex-direction: column;
+  gap: 122px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 192px;
+  top: 0px;
+}
+.div20 {
+  flex-shrink: 0;
+  width: 1056px;
+  height: 192px;
+  position: relative;
+}
+.crypto-market-making {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 56px;
+  line-height: 78px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.we-are-a-global-crypto-liquidity-provider-and-algorithmic-market-maker-we-trade-digital-assets-listed-on-centralized-exchanges-in-over-15-countries-worldwide {
+  color: #e5e5e5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 101px;
+  width: 620.33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div21 {
+  padding: 0px 119.22px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 92px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.div22 {
+  flex-shrink: 0;
+  height: 366px;
+  position: relative;
+}
+.market-making-for-crypto-projects {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+  width: 404.12px;
+  height: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.accelerate-your-token-s-journey-by-boosting-its-liquidity {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 115px;
+  width: 392.09px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.we-invest-in-building-long-term-sustainable-relationships-and-support-our-projects-in-their-growth-journey-with-our-services-industry-expertise-and-network {
+  color: #e5e5e5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 188px;
+  width: 396.4px;
+  height: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.a {
+  padding: 0px 26px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - -152px);
+}
+.span {
+  padding: 0px 2.84px 1px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.span-before {
+  background: linear-gradient(
+    135deg,
+    rgba(102, 93, 205, 1) 0%,
+    rgba(95, 164, 230, 1) 44.760000705718994%,
+    rgba(210, 171, 103, 1) 100%
+  );
+  flex-shrink: 0;
+  width: 99.84px;
+  height: 2px;
+  position: absolute;
+  left: 0px;
+  top: 29px;
+}
+.learn-more {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.a-after {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 105.84px;
+  top: 8px;
+}
+.arrow-svg {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.icon-arrow {
+  width: 99%;
+  height: 90%;
+  position: absolute;
+  right: 1%;
+  left: 0%;
+  bottom: 5%;
+  top: 5%;
+  overflow: visible;
+}
+.div23 {
+  width: 124px;
+  height: 84px;
+  position: absolute;
+  left: 98px;
+  bottom: 176px;
+}
+.bar-4-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.table-4-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 13.08px;
+  top: -14px;
+  object-fit: cover;
+}
+.shadow-4-png {
+  width: 100px;
+  position: absolute;
+  left: 10px;
+  bottom: 31.75px;
+  top: -6px;
+  object-fit: cover;
+}
+.token-4-png {
+  width: 54px;
+  position: absolute;
+  left: 34px;
+  bottom: 100px;
+  top: -78px;
+  object-fit: cover;
+}
+.div24 {
+  width: 190px;
+  height: 181px;
+  position: absolute;
+  left: 176px;
+  bottom: 58px;
+}
+.bar-1-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.table-1-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 59.81px;
+  top: -10px;
+  object-fit: cover;
+}
+.shadow-1-png {
+  width: 160.88px;
+  position: absolute;
+  left: 19.56px;
+  bottom: 88.65px;
+  top: 2.8685147762298584px;
+  object-fit: cover;
+}
+.token-1-png {
+  width: 130px;
+  position: absolute;
+  left: 36px;
+  bottom: 158.9px;
+  top: -107.904296875px;
+  object-fit: cover;
+}
+.div25 {
+  width: 150px;
+  height: 120px;
+  position: absolute;
+  right: -32px;
+  bottom: -16px;
+}
+.bar-2-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.table-2-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 25.53px;
+  top: -10px;
+  object-fit: cover;
+}
+.shadow-2-png {
+  width: 120px;
+  position: absolute;
+  left: 20px;
+  bottom: 53.25px;
+  top: 0px;
+  object-fit: cover;
+}
+.token-2-png {
+  width: 116px;
+  position: absolute;
+  left: 26px;
+  bottom: 96px;
+  top: -92px;
+  object-fit: cover;
+}
+.div26 {
+  width: 108px;
+  height: 80px;
+  position: absolute;
+  left: 98px;
+  bottom: 14px;
+}
+.bar-3-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.table-3-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 16.5px;
+  top: -10px;
+  object-fit: cover;
+}
+.shadow-3-png {
+  width: 100px;
+  position: absolute;
+  left: 10px;
+  bottom: 27.75px;
+  top: -6px;
+  object-fit: cover;
+}
+.token-3-png {
+  width: 86px;
+  position: absolute;
+  left: 12px;
+  bottom: 72px;
+  top: -78px;
+  object-fit: cover;
+}
+.div27 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 192px;
+  top: 2578px;
+}
+.div28 {
+  flex-shrink: 0;
+  width: 1056px;
+  height: 387px;
+  position: relative;
+}
+.div29 {
+  height: 387px;
+  position: absolute;
+  right: 0px;
+  left: 633.609375px;
+  top: 0px;
+}
+.market-making-for-crypto-exchanges {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: -1px;
+  width: 404.12px;
+  height: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.attract-more-traders-and-projects-with-deep-order-books-liquidity {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 115px;
+  width: 393.2px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.our-world-class-market-making-services-are-proven-to-help-local-and-emerging-exchanges-win-traders-and-gain-market-leading-positions-of-up-to-90-market-dominance {
+  color: #e5e5e5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 188px;
+  width: 422.08px;
+  height: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.a2 {
+  padding: 0px 26px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - -141.5px);
+}
+.icon-arrow2 {
+  width: 99%;
+  height: 90%;
+  position: absolute;
+  right: 1%;
+  left: 0%;
+  bottom: 5%;
+  top: 5%;
+  overflow: visible;
+}
+.div30 {
+  height: 387px;
+  position: absolute;
+  right: 633.61px;
+  left: 0px;
+  top: 0px;
+}
+.div31 {
+  width: 772px;
+  height: 760px;
+  position: absolute;
+  left: -110px;
+  top: -210px;
+  object-fit: cover;
+}
+.div32 {
+  width: 432px;
+  height: 387px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.grid-png {
+  height: 321px;
+  position: absolute;
+  right: -84px;
+  left: 2px;
+  top: 152px;
+  object-fit: cover;
+}
+.exchange-screens-new-png {
+  width: 514px;
+  height: 522px;
+  position: absolute;
+  left: 0px;
+  top: -50px;
+  object-fit: cover;
+}
+.div33 {
+  position: absolute;
+  right: -84px;
+  left: 2px;
+  bottom: -86px;
+  top: 86px;
+}
+.div34 {
+  width: 42px;
+  height: 55px;
+  position: absolute;
+  left: 54px;
+  bottom: 134px;
+}
+.binance-base-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.binance-top-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 30.17px;
+  top: -4px;
+  object-fit: cover;
+}
+.div35 {
+  width: 26px;
+  height: 38px;
+  position: absolute;
+  right: 104px;
+  bottom: 22px;
+}
+.bitkub-base-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.bitkub-top-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 23.16px;
+  top: -2px;
+  object-fit: cover;
+}
+.div36 {
+  width: 50px;
+  height: 66px;
+  position: absolute;
+  left: 242px;
+  bottom: 32px;
+}
+.bnb-base-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.bnb-top-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 37.48px;
+  top: -4px;
+  object-fit: cover;
+}
+.div37 {
+  width: 26px;
+  height: 38px;
+  position: absolute;
+  right: 359px;
+  bottom: 23px;
+}
+.solana-base-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.solana-top-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 23.64px;
+  top: -2px;
+  object-fit: cover;
+}
+.div38 {
+  width: 1120px;
+  height: 696px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 3189px;
+}
+.middle-left-2-png {
+  height: 831.14px;
+  position: absolute;
+  right: 739.62px;
+  left: -448.8500061035156px;
+  top: -243.46px;
+  transform-origin: 0 0;
+  transform: rotate(5.938deg) scale(1, 1);
+  object-fit: cover;
+}
+.solana-png {
+  height: 96px;
+  position: absolute;
+  right: 1087.11px;
+  left: -63.10649871826172px;
+  top: 101.67px;
+  object-fit: cover;
+}
+.near-png {
+  height: 83px;
+  position: absolute;
+  right: 1063.89px;
+  left: -16.89349365234375px;
+  top: -22.78px;
+  object-fit: cover;
+}
+.mena-png {
+  height: 82px;
+  position: absolute;
+  right: 979.55px;
+  left: 68.44680786132812px;
+  top: 63.88px;
+  object-fit: cover;
+}
+.div39 {
+  width: 1056px;
+  height: 696px;
+  position: absolute;
+  left: 32px;
+  top: 0px;
+}
+.div40 {
+  height: 176px;
+  position: absolute;
+  right: 549.12px;
+  left: 0px;
+  top: calc(50% - 18px);
+}
+.our-partners-friends {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 500;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  width: 400.59px;
+  height: 153px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div41 {
+  width: 408px;
+  height: 696px;
+  position: absolute;
+  left: 648px;
+  top: 50%;
+  translate: 0 -50%;
+  overflow: hidden;
+}
+.div42 {
+  padding: 480px 0px 32px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: -576px;
+}
+.div43 {
+  background: linear-gradient(
+    180deg,
+    rgba(65, 85, 114, 0.15) 0%,
+    rgba(27, 27, 30, 0.1) 100%
+  );
+  border-radius: 4px;
+  border-style: solid;
+  border-color: rgba(65, 85, 114, 0.5);
+  border-width: 1px;
+  flex-shrink: 0;
+  width: 192px;
+  height: 192px;
+  position: relative;
+}
+.bithumb-2-x-png {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  object-fit: cover;
+}
+.bithumb {
+  color: #999999;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 11px;
+  line-height: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  right: 70.13px;
+  left: 70.328125px;
+  bottom: 25px;
+  top: 152px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bitbank-2-x-png {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  object-fit: cover;
+}
+.bitbank {
+  color: #999999;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 11px;
+  line-height: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  right: 71.77px;
+  left: 71.96875px;
+  bottom: 25px;
+  top: 152px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.binance-2-x-png {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  object-fit: cover;
+}
+.binance {
+  color: #999999;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 11px;
+  line-height: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  right: 70.29px;
+  left: 70.4921875px;
+  bottom: 25px;
+  top: 152px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div44 {
+  padding: 32px 0px 480px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 216px;
+  top: 118px;
+}
+.bitstamp-2-x-png {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  object-fit: cover;
+}
+.bitstamp {
+  color: #999999;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 11px;
+  line-height: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  right: 68.59px;
+  left: 68.7890625px;
+  bottom: 25px;
+  top: 152px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.coinbase-2-x-png {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  object-fit: cover;
+}
+.coinbase {
+  color: #999999;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 11px;
+  line-height: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  right: 66.64px;
+  left: 66.84375px;
+  bottom: 25px;
+  top: 152px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bitfinex-2-x-png {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  object-fit: cover;
+}
+.div-before3 {
+  background: linear-gradient(
+    0deg,
+    rgba(20, 22, 25, 0) 0%,
+    rgba(20, 22, 25, 0.88) 52.67999768257141%,
+    rgba(20, 22, 25, 1) 100%
+  );
+  width: 408px;
+  height: 152px;
+  position: absolute;
+  left: 0px;
+  top: -12px;
+}
+.div-after {
+  background: linear-gradient(
+    180deg,
+    rgba(20, 22, 25, 0) 0%,
+    rgba(20, 22, 25, 0.88) 52.67999768257141%,
+    rgba(20, 22, 25, 1) 100%
+  );
+  width: 408px;
+  height: 152px;
+  position: absolute;
+  left: 0px;
+  top: 556px;
+}
+.div45 {
+  width: 1135px;
+  height: 889px;
+  position: absolute;
+  left: 113px;
+  top: 4013px;
+}
+.we-are-in-a-good-company {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 57px;
+  line-height: 78px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.our-partnerships-have-delivered-great-value-to-our-projects-and-we-re-happy-to-share-some-of-their-feedback-below {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 97px;
+  width: 603.75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div46 {
+  width: 1204px;
+  height: 709px;
+  position: absolute;
+  left: calc(50% - 567.5px);
+  top: 180px;
+  overflow: hidden;
+}
+.div47 {
+  width: 1056px;
+  height: 58px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.pagination-default-svg {
+  width: 58px;
+  height: 58px;
+  position: absolute;
+  left: 454px;
+  top: 0px;
+}
+.pagination-default-svg2 {
+  width: 58px;
+  height: 58px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.blog-single-post {
+  height: auto;
+  position: absolute;
+  left: 0.49px;
+  top: 0.49px;
+  overflow: visible;
+}
+.pagination-default-svg3 {
+  width: 58px;
+  height: 58px;
+  position: absolute;
+  left: 602px;
+  top: 0px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+}
+.pagination-default-svg4 {
+  width: 58px;
+  height: 58px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  overflow: hidden;
+}
+.blog-single-post2 {
+  height: auto;
+  position: absolute;
+  left: 0.49px;
+  top: 0.49px;
+  overflow: visible;
+}
+.div48 {
+  position: absolute;
+  right: 1206px;
+  left: -1206px;
+  bottom: 79.61px;
+  top: 90px;
+}
+.div49 {
+  background: #507fc5;
+  border-radius: 8px;
+  width: 1213px;
+  position: absolute;
+  left: 1206px;
+  bottom: 0.39px;
+  top: 0.0001875000016298145px;
+}
+.div50 {
+  width: 682px;
+  height: 455px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+}
+.since-2019-gravity-team-has-been-an-astounding-market-maker-for-bitkub-they-have-proven-themselves-to-be-one-of-the-most-consistent-committed-and-driven-market-makers-on-our-exchange-gravity-team-has-contributed-high-quality-volume-and-has-proven-to-be-very-reliable-and-trustworthy-partner-we-strongly-advocate-gravity-team-as-they-have-been-an-indispensable-part-of-our-market-making-team {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 26px;
+  line-height: 44px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 4px;
+  width: 678.09px;
+  height: 343px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.atthakrit-chimplapibul {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 385px;
+  width: 202.12px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div51 {
+  width: 682px;
+  height: 26px;
+  position: absolute;
+  left: 0px;
+  top: 429px;
+}
+.co-founder-ceo-of-bitkub {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Light", sans-serif;
+  font-size: 14px;
+  line-height: 18.4px;
+  font-weight: 300;
+  position: absolute;
+  left: calc(50% - 170.97px);
+  top: calc(50% - 7.2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div52 {
+  width: 140.5px;
+  height: 26px;
+  position: absolute;
+  left: calc(50% - -35.45px);
+  top: 50%;
+  translate: 0 -50%;
+}
+.div-before4 {
+  background: #666666;
+  width: 1px;
+  height: 32px;
+  position: absolute;
+  left: 0px;
+  top: -3px;
+}
+.bitkub-logo-light-trimmed-png {
+  width: 123.5px;
+  height: 26px;
+  position: absolute;
+  left: 17px;
+  top: 0px;
+  object-fit: cover;
+}
+.div53 {
+  width: 1056px;
+  height: 24px;
+  position: absolute;
+  left: 12px;
+  top: 685.39px;
+}
+.span-after {
+  background: linear-gradient(
+    135deg,
+    rgba(102, 93, 205, 1) 0%,
+    rgba(95, 164, 230, 1) 44.760000705718994%,
+    rgba(210, 171, 103, 1) 100%
+  );
+  border-radius: 4px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 500px;
+  top: 8px;
+}
+.span-before2 {
+  background: rgba(51, 51, 51, 0);
+  border-radius: 4px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 524px;
+  top: 8px;
+}
+.span-before3 {
+  background: rgba(51, 51, 51, 0);
+  border-radius: 4px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 548px;
+  top: 8px;
+}
+.div54 {
+  background: #507fc5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 132px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1198px;
+  height: 351px;
+  position: absolute;
+  left: 113px;
+  top: 5013px;
+}
+.div55 {
+  padding: 0px 59px 1px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.div56 {
+  flex-shrink: 0;
+  width: 408px;
+  height: 156px;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+}
+.div57 {
+  width: 567.1px;
+  height: 401.03px;
+  position: absolute;
+  left: -130.71px;
+  top: -101.68px;
+  transform-origin: 0 0;
+  transform: rotate(0.17deg) scale(1, 1);
+  object-fit: cover;
+}
+.div58 {
+  width: 341.68px;
+  height: 329.29px;
+  position: absolute;
+  left: 157.27px;
+  top: -100.1px;
+  object-fit: cover;
+}
+.join-inzapp-team {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 53px;
+  line-height: 78px;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div59 {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.div60 {
+  padding: 0px 10.33px 1px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.join-our-community-of-innovators-problem-solvers-and-owners-who-apply-scientific-discovery-techniques-to-make-crypto-markets-a-better-place-for-everyone {
+  color: #e5e5e5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 400;
+  position: relative;
+  width: 505.67px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.as-we-emphasize-it-in-our-name-gravity-team-we-are-a-team-a-team-of-bright-talented-people-each-masters-of-their-specialty-curious-about-the-world-and-eager-to-solve-the-new-exciting-cryptocurrency-market-problems-build-cool-stuff-and-have-fun-whilst-doing-so {
+  color: #e5e5e5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 400;
+  position: relative;
+  width: 504.54px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.a3 {
+  padding: 0px 26px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.span2 {
+  padding: 0px 7.61px 1px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.span-before4 {
+  background: linear-gradient(
+    135deg,
+    rgba(102, 93, 205, 1) 0%,
+    rgba(95, 164, 230, 1) 44.760000705718994%,
+    rgba(210, 171, 103, 1) 100%
+  );
+  flex-shrink: 0;
+  width: 297.61px;
+  height: 2px;
+  position: absolute;
+  left: 0px;
+  top: 29px;
+}
+.learn-more-about-working-with-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.a-after2 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 303.61px;
+  top: 8px;
+}
+.icon-arrow3 {
+  width: 99%;
+  height: 90%;
+  position: absolute;
+  right: 1%;
+  left: 0%;
+  bottom: 5%;
+  top: 5%;
+  overflow: visible;
+}
+.section3 {
+  background: #81a1d2;
+  height: 548px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 5447px;
+}
+.div61 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 192px;
+  top: 100px;
+}
+.div62 {
+  flex-shrink: 0;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+}
+.div63 {
+  width: 662.55px;
+  height: 574.69px;
+  position: absolute;
+  right: -152.22px;
+  bottom: -129.48px;
+  transform-origin: 0 0;
+  transform: rotate(11.8deg) scale(1, 1);
+  object-fit: cover;
+}
+.div64 {
+  width: 323.93px;
+  height: 315.5px;
+  position: absolute;
+  right: 265.92px;
+  top: -36.25px;
+  transform-origin: 0 0;
+  transform: rotate(3.8deg) scale(1, 1);
+  object-fit: cover;
+}
+.div65 {
+  width: 527.68px;
+  height: 372.35px;
+  position: absolute;
+  left: -167.39px;
+  bottom: -103.62px;
+  object-fit: cover;
+}
+.div66 {
+  width: 323.79px;
+  height: 314.18px;
+  position: absolute;
+  right: -2.03px;
+  bottom: -97.51px;
+  object-fit: cover;
+}
+.div67 {
+  flex-shrink: 0;
+  width: 1056px;
+  height: 320px;
+  position: relative;
+}
+.contact-us {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 56px;
+  line-height: 78px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.we-are-always-open-to-discuss-new-value-adding-partnerships-do-reach-out-if-you-are-an-exchange-or-a-project-looking-for-liquidity-an-algorithmic-trader-or-a-software-developer-looking-to-improve-the-markets-with-us-or-just-have-a-great-idea-you-can-t-wait-to-share-with-us {
+  color: #e5e5e5;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 101px;
+  width: 623.84px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button2 {
+  border-radius: 2px;
+  padding: 17px 28.5px 19px 27px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - -102px);
+  overflow: hidden;
+}
+.button-before2 {
+  background: linear-gradient(
+    135deg,
+    rgba(102, 93, 205, 1) 0%,
+    rgba(95, 164, 230, 1) 44.760000705718994%,
+    rgba(210, 171, 103, 1) 100%
+  );
+  border-radius: 2px;
+  flex-shrink: 0;
+  width: 191.5px;
+  height: 58px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.header {
+  background: #000000;
+  width: 1440px;
+  height: 810px;
+  position: absolute;
+  left: 2px;
+  top: 88px;
+  overflow: hidden;
+}
+.div68 {
+  position: absolute;
+  right: 108px;
+  left: 108px;
+  bottom: -207px;
+  top: -207px;
+}
+._61-b-722-a-29-eb-495746821350-c-sable-frame-jpg {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.div69 {
+  width: 633.38px;
+  height: 325.95px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+}
+.h-12 {
+  width: 633.38px;
+  height: 222.47px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+}
+.the {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 59.79309844970703px;
+  line-height: 74.15px;
+  letter-spacing: 1.24px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 250.7px);
+  top: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fastest {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 56.79309844970703px;
+  line-height: 74.15px;
+  letter-spacing: 1.24px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 122.39px);
+  top: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.most {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 59.79309844970703px;
+  line-height: 74.15px;
+  letter-spacing: 1.24px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - -105.64px);
+  top: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.premium {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 61.79309844970703px;
+  line-height: 74.15px;
+  letter-spacing: 1.24px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 244.72px);
+  top: 73.16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.path {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 61.79309844970703px;
+  line-height: 74.15px;
+  letter-spacing: 1.24px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - -33.45px);
+  top: 73.16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.to {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 59.79309844970703px;
+  line-height: 74.15px;
+  letter-spacing: 1.24px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - -187.3px);
+  top: 73.16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.financial {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 59.79309844970703px;
+  line-height: 74.15px;
+  letter-spacing: 1.24px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 262.8px);
+  top: 147.31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.freedom {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 57.79309844970703px;
+  line-height: 74.15px;
+  letter-spacing: 1.24px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - -15.16px);
+  top: 147.31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a4 {
+  background: #6fdbd4;
+  border-radius: 154.48px;
+  padding: 29.89px 48.52px 31.42px 48.34px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 236.75px;
+  top: 245.64px;
+}
+.explore {
+  color: #000000;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 13.4483003616333px;
+  line-height: 18.54px;
+  letter-spacing: 0.39px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div70 {
+  width: 405.52px;
+  height: 23.16px;
+  position: absolute;
+  left: calc(50% - 669.59px);
+  top: calc(50% - -327.78px);
+}
+.div71 {
+  height: 22.2px;
+  position: absolute;
+  right: 349.52px;
+  left: 0px;
+  top: 0.47px;
+  overflow: hidden;
+}
+.svg {
+  width: 56px;
+  height: 22.19px;
+  position: absolute;
+  left: 0px;
+  top: 0.02px;
+  overflow: hidden;
+}
+.frame {
+  width: 56px;
+  height: 22.19px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+  overflow: visible;
+}
+.banking-services-provided-by-coastal-community-bank-member-fdic-pursuant-to-license-by-mastercard-international-inc {
+  color: #a0a1a8;
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 9.655170440673828px;
+  line-height: 11.59px;
+  letter-spacing: 0.19px;
+  font-weight: 500;
+  position: absolute;
+  left: 71.44px;
+  top: calc(50% - 13.58px);
+  width: 322.79px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer {
+  background: #141619;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.25);
+  border-width: 1px 0px 0px 0px;
+  padding: 97px 160px 64px 160px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 5990.39px;
+}
+.div72 {
+  flex-shrink: 0;
+  width: 1120px;
+  height: 205.2px;
+  position: relative;
+}
+.div73 {
+  display: flex;
+  flex-direction: row;
+  gap: 760px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 32px;
+  top: 0px;
+}
+.div74 {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.gravity-team {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.53px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ul-menu-gravity-team {
+  padding: 5px 27.72px 5px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.about-us {
+  color: #bcbcbc;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.work-with-us {
+  color: #bcbcbc;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div75 {
+  flex-shrink: 0;
+  width: 180px;
+  height: 126.81px;
+  position: relative;
+}
+.logo-light-png {
+  width: 180px;
+  height: 41.81px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.span3 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 160px;
+  top: 106.81px;
+}
+.div76 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div77 {
+  padding: 0px 15.22px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 569.78px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 32px;
+  top: 186.81px;
+}
+.terms-of-use-privacy-policy {
+  color: #bcbcbc;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18.4px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+._2022-gravity-team-all-rights-reserved {
+  color: #bcbcbc;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18.4px;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header2 {
+  background: #000000;
+  height: 92px;
+  position: absolute;
+  right: 0px;
+  left: 2px;
+  top: -1px;
+}
+.logo-light-png2 {
+  width: 180.78px;
+  height: 42px;
+  position: absolute;
+  left: 64px;
+  /* top: 22.3px; */
+  object-fit: cover;
+}
+.ul-menu-main-menu {
+  width: 874.67px;
+  height: 44px;
+  position: absolute;
+  left: 282.67px;
+  top: 22px;
+}
+.about-us2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.53px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  left: 211.05px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.span4 {
+  width: 132.84px;
+  height: 24px;
+  position: absolute;
+  left: 316.19px;
+  top: 10px;
+}
+.our-services {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.53px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.span-after2 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0px 0px 1px 1px;
+  width: 11.31px;
+  height: 11.31px;
+  position: absolute;
+  left: 123.19px;
+  top: 10px;
+  transform-origin: 0 0;
+  transform: rotate(-45deg) scale(1, 1);
+}
+.work-with-us2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.53px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  left: 473.03px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.blog {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.53px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  left: 619.55px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button3 {
+  padding: 1px 7.36px 1px 27px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 63.98px;
+  top: 50%;
+  translate: 0 -50%;
+}
+.button-before3 {
+  background: linear-gradient(
+    135deg,
+    rgba(102, 93, 205, 1) 0%,
+    rgba(95, 164, 230, 1) 44.760000705718994%,
+    rgba(210, 171, 103, 1) 100%
+  );
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 5px;
+}
+.get-in-touch2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.53px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whats-app-image-2025-03-01-at-6-13-03-pm-1 {
+  width: 178px;
+  height: 76px;
+  position: absolute;
+  left: 66px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 178/76;
+}
+.span4 {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.dropdown-item {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f5f5f5;
+}
+.carousel-item img {
+  width: 100%;
+  height: 80vh; /* Full height of the visible window */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
