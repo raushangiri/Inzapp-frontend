@@ -2494,6 +2494,26 @@
   left: 282.67px;
   top: 22px;
 }
+.home-us2 {
+  color: #ffffff !important;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.53px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  left: 141.05px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none; 
+  text-underline: none;
+  
+  
+}
 .about-us2 {
   color: #ffffff;
   text-align: left;

@@ -2,6 +2,7 @@ import image from '../Asset/header.png'
 import image2 from '../Asset/logo2.png'
 import image3 from '../Asset/sliderimage3.png'
 import image4 from '../Asset/sliderimage4.jpg'
+import { Link} from "react-router-dom";
 
 import React, { useState } from "react";
 import "../App.css"; // Ensure you have styles in a CSS file
@@ -11,10 +12,25 @@ import Navbar from './Navbar';
 const Landingpage = () => {
   const [isOpen, setIsOpen] = useState(false); // State for dropdown
 
-  const images = [
-    image,
-    "https://via.placeholder.com/800x400.png?text=Slide+2",
-    "https://via.placeholder.com/800x400.png?text=Slide+3"
+  const services = [
+    {
+      title: "Investments",
+      description: "We design and develop programs that empower investors to effortlessly build sustainable portfolios.",
+      image: image4,
+      reverse: false, // Image Left - Text Right
+    },
+    {
+      title: "Education",
+      description: "We teach ‘why’ it’s important to invest for sustainability, how to do so successfully, and what to expect from it.",
+      image: image3,
+      reverse: true, // Text Left - Image Right
+    },
+    {
+      title: "Engagement",
+      description: "We engage with the companies in our funds, with the industry, and with our clients to accelerate sustainability.",
+      image: image4,
+      reverse: false, // Image Left - Text Right
+    },
   ];
 
   return (
@@ -23,6 +39,8 @@ const Landingpage = () => {
         <div className="header2">
           <img className="logo-light-png2" src={logo2} alt="Logo"style={{height:"auto"}} />
           <div className="ul-menu-main-menu">
+             <div className="home-us2 "> <Link to="/" className="text-decoration-none text-reset" style={{  color: "#ffffff !important;"
+            }}>Home</Link></div>
             <div className="about-us2">About Us</div>
             
             {/* Services Dropdown */}
@@ -44,7 +62,7 @@ const Landingpage = () => {
             </div>
     
             <div className="work-with-us2">Work with Us</div>
-            <div className="blog">Login / Sign Up</div>
+            <Link to="/login"><div className="blog"> Login / Sign Up</div></Link>
           </div>
           <div className="button3">
             <div className="button-before3"></div>
@@ -177,6 +195,28 @@ const Landingpage = () => {
           </div>
         </div>
         </section>
+{/* //////////////////////////////////////////////////// */}
+<section className=" py-5">
+      <div className="container ">
+        <h1 className="text-center text-light mb-5 fs-1">What We Do</h1>
+
+        {services.map((service, index) => (
+          <div key={index} className={`row  align-items-center mb-5 mt-5 ${service.reverse ? "flex-row-reverse" : ""}`}>
+            {/* Image Section */}
+            <div className="col-md-6 text-center ">
+              <img src={service.image} alt={service.title} className="img-fluid rounded" style={{ maxWidth: "500px" }} />
+            </div>
+
+            {/* Text Section bg-secondary-subtle*/}
+            <div className="col-md-6 ">
+              <h2 className="fs-1">{service.title}</h2>
+              <p className="fs-3">{service.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section> 
+
     </>
   )
 }
