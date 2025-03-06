@@ -32,7 +32,11 @@ const Landingpage = () => {
       reverse: false, // Image Left - Text Right
     },
   ];
-
+  const plans = [
+    { name: "Starter", rate: "4% Monthly", deposit: "$1,000", period: "1 Month" },
+    { name: "Advance", rate: "6% Monthly", deposit: "$1,000", period: "6 Months" },
+    { name: "Premium", rate: "8% Monthly", deposit: "$1,000", period: "12 Months" },
+  ];
   return (
     <>
 
@@ -216,6 +220,49 @@ const Landingpage = () => {
         ))}
       </div>
     </section> 
+
+    <div className="container mt-5">
+      <h2 className="text-center mb-4">Comprehensive Packages Tailored for Every Investor</h2>
+      <div className="table-responsive " style={{maxWidth:"80%", margin:"auto"}}>
+        <table className="table table-bordered text-center">
+          <thead className="table-dark">
+            <tr>
+              <th>Plan</th>
+              <th>Interest Rate</th>
+              <th>Minimum Deposit</th>
+              <th>Locking Period</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {plans.map((plan, index) => (
+              <tr key={index}>
+                <td>{plan.name}</td>
+                <td>{plan.rate}</td>
+                <td>{plan.deposit}</td>
+                <td>{plan.period}</td>
+                <td>
+                  <button className="btn btn-primary">Choose</button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <strong style={{ display: "block", textAlign: "left"}}>NOTE:</strong>
+        <ol class="list-group list-group-numbered d-flex justify-content-between align-items-start">
+  <li class="list-group-item" style={{backgroundColor: "transparent", border: "none"}}>
+    The withdrawal fee will be 5% for each transaction.
+  </li>
+  <li class="list-group-item" style={{backgroundColor: "transparent", border: "none"}}>
+  Emergency cancellations can be made at any time. The principal will be released within 15 days, and the return on investment (ROI) will be issued in the following 15 days, based on a 2% monthly interest rate.
+  </li>
+</ol>
+
+        
+        
+
+      </div>
+    </div>
 
     </>
   )
